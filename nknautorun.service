@@ -1,0 +1,8 @@
+[Unit]
+Description=nkn run  Service
+After=multi-user.target
+[Service]
+Type=idle
+ExecStart=/nkn/starttoscreen.sh
+[Install]
+WantedBy=multi-user.target
